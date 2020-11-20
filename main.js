@@ -34,6 +34,9 @@ function azioni(t){
     t.appendChild(img)
 }
 
+function restart(){
+    location.reload()
+}
 
 td.forEach(element => {
     element.addEventListener("click", function giocata(){
